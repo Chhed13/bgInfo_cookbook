@@ -1,3 +1,4 @@
+name              'bgInfo'
 maintainer       "E.Trufanov, A.Rotchev"
 maintainer_email "etrufanov@wildapricot.com"
 license          "Apache 2.0"

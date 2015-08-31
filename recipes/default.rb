@@ -12,6 +12,7 @@ end
 
 # unzip the downloaded file to the installation directory
 windows_zipfile "bginfozip" do
+  overwrite true
   path node['SysinternalsBginfo']['bginfo_installation_directory']
   source "#{Chef::Config[:file_cache_path]}/#{bginfo_zip_file}"
   action :unzip
